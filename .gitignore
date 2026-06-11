@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 上传文件（用户数据不纳入代码仓库）
+uploads/*
+
+# 配置文件（含敏感信息）
+config.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
