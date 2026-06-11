@@ -5,6 +5,4 @@ services:
     plan: free
     buildCommand: ""
     startCommand: python app.py
-    envVars:
-      - key: PORT
-        value: "8080"
+    envVars: []
