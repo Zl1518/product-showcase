@@ -38,7 +38,7 @@ def safe_decode(data):
 # 常量配置
 # ============================================================
 HOST = "0.0.0.0"
-PORT = 8080
+PORT = int(os.environ.get("PORT", 8080))
 DATA_DIR = "data"
 UPLOAD_DIR = "uploads"
 STATIC_DIR = "static"

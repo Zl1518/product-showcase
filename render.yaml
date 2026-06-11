@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: product-showcase
+    runtime: python
+    plan: free
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: PORT
+        value: "8080"
